@@ -20,7 +20,7 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/Lightricks/ComfyUI-LTXVideo"
     "https://github.com/kijai/ComfyUI-KJNodes"
-    "https://github.com/ClownsharkBatwing/RES4LYF"
+    #"https://github.com/ClownsharkBatwing/RES4LYF"
     "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/monnky/ComfyUI-Monnky-LTXV2"
     "https://github.com/crystian/ComfyUI-Crystools"
@@ -36,6 +36,7 @@ WORKFLOWS=(
 )
 
 CHECKPOINT_MODELS=(
+    "https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors"
     #"https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
     #"https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled.safetensors"
     #"https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-fp8.safetensors"
@@ -53,7 +54,6 @@ LORA_MODELS=(
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors"
     "https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors"
 )
 
